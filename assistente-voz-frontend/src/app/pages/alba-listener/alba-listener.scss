@@ -1,0 +1,39 @@
+.assistant-container {
+  height: 100vh;
+  background: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.orb {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.orb.idle {
+  background: radial-gradient(circle, #1e293b, #0f172a);
+}
+
+.orb.listening-command {
+  background: radial-gradient(circle, #22c55e, #15803d);
+  animation: pulse 1.5s infinite;
+}
+
+.orb.processing {
+  background: radial-gradient(circle, #3b82f6, #1d4ed8);
+}
+
+.orb.speaking {
+  background: radial-gradient(circle, #f59e0b, #b45309);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
