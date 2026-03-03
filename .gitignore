@@ -141,3 +141,6 @@ vite.config.ts.timestamp-*
 /assistente-voz/node_modules
 /assistente-voz/.env
 /assistente-voz/test-openai.mjs
+
+/assistente-voz-frontend/node_modules
+/assistente-voz-frontend/.env
