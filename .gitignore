@@ -144,3 +144,45 @@ vite.config.ts.timestamp-*
 
 /assistente-voz-frontend/node_modules
 /assistente-voz-frontend/.env
+# Compiled output
+/assistente-voz-frontend/dist
+/assistente-voz-frontend/tmp
+/assistente-voz-frontend/out-tsc
+/assistente-voz-frontend/bazel-out
+
+# Node
+/node_modules
+/assistente-voz-frontend/npm-debug.log
+/assistente-voz-frontend/yarn-error.log
+
+# IDEs and editors
+/assistente-voz-frontend/.idea/
+/assistente-voz-frontend/.project
+/assistente-voz-frontend/.classpath
+/assistente-voz-frontend/.c9/
+/assistente-voz-frontend/*.launch
+/assistente-voz-frontend/.settings/
+/assistente-voz-frontend/*.sublime-workspace
+
+# Visual Studio Code
+/assistente-voz-frontend/.vscode/*
+/assistente-voz-frontend/!.vscode/settings.json
+/assistente-voz-frontend/!.vscode/tasks.json
+/assistente-voz-frontend/!.vscode/launch.json
+/assistente-voz-frontend/!.vscode/extensions.json
+/assistente-voz-frontend/!.vscode/mcp.json
+/assistente-voz-frontend/.history/*
+
+# Miscellaneous
+/assistente-voz-frontend/.angular/cache
+/assistente-voz-frontend/.sass-cache/
+/assistente-voz-frontend/connect.lock
+/assistente-voz-frontend/coverage
+/assistente-voz-frontend/libpeerconnection.log
+/assistente-voz-frontend/testem.log
+/assistente-voz-frontend/typings
+/assistente-voz-frontend/__screenshots__/
+
+# System files
+/assistente-voz-frontend/.DS_Store
+/assistente-voz-frontend/Thumbs.db
